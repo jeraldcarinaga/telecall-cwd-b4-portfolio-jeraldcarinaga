@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha512-t38vG/f94E72wz6pCsuuhcOPJlHKwPy+PY+n1+tJFzdte3hsIgYE7iEpgg/StngunGszVMrRfvwZinrza0vMTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Trendsetter.</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="navbar-fixed ">
+            <nav class="light-blue darken-4">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="center brand-logo whte-text capriola">Trend<span class="yellow-text text-darken-1">setter.</span></a>
+                        <ul id="nav-mobile" class="left hide-on-med-and-down capriola">
+                            <li><a href="#home" class="white-text">Home</a></li>
+                            <li><a href="#product" class="white-text">Product</a></li>
+                            <li><a href="#perks" class="white-text">Perks</a></li>
+                            <li><a href="#gallery" class="white-text">Gallery</a></li>
+                        </ul>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="#favorites" class="tooltipped modal-trigger" data-position="bottom" data-tooltip="Favorites"><i class="material-icons white-text">favorite</i></a></li>
+                            <li><a href="#cart" class="tooltipped modal-trigger" data-position="bottom" data-tooltip="Cart"><i class="material-icons white-text">local_grocery_store</i></a></li>
+                            <li><a href="loginandregister.html" class="tooltipped" data-position="bottom" data-tooltip="Login/Register"><i class="material-icons white-text">person</i></a></li>
+                        </ul>
+                    </div>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+    <!-- sidenav content  -->
+    <div class="container capriola sidenav light-blue darken-4" id="slide-out">
+        <h4 class="center">
+            <a href="#!" class="center brand-logo white-text capriola">Trend<span class="yellow-text text-darken-1">setter.</span></a>
+        </h4>
+        <ul>
+            <li><div class="divider"></div></li>
+            <li><a href="#home" class="yellow-text text-darken-1"><i class="white-text material-icons">home</i>Home</a></li>
+            <li><a href="#product" class="yellow-text text-darken-1"><i class="white-text material-icons">shopping_basket</i>Product</a></li>
+            <li><a href="#perks" class="yellow-text text-darken-1"><i class="white-text material-icons">card_giftcard</i>Perks</a></li>
+            <li><a href="#gallery" class="yellow-text text-darken-1"><i class="white-text material-icons">panorama</i>Gallery</a></li>
+        </ul>
+        <ul>
+            <li><div class="divider"></div></li>
+            <li><a href="#favorites" class="white-text modal-trigger">Favorites</a></li>
+            <li><a href="#cart" class="white-text modal-trigger">Shopping Cart</a></li>
+            <li><a href="loginandregister.html" class="white-text">Login/Register</a></li>
+        </ul>
+    </div>
+    
+    <!-- section 1: home  -->
+    <section class=" main-header">
+        <div class="showcase container section scrollspy" id="home">
+            <div class="row">
+                <div class="col s12 m11 l6">
+                    <h2 class="capriola grey-text text-darken-4 z-depth-5">Yes! Our clothing creates fashion trends.</h2>
+                    <h4 id="sub" class="hide-on-med-and-down ropa-sans light-blue-text text-darken-3">Everything better in Trendsetter.</h4>
+                    <a class="light-blue darken-3 waves-effect waves-light btn-large hoverable waves-effect waves-yellow capriola" href="#product">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section 2: materialboxed home-->
+    <section>
+        <div class="light-blue darken-4">
+            <div class="row valign-wrapper">
+                <div class="col s12 m12 l8">
+                    <div class="container">
+                        <h1 class="white-text capriola z-depth-5">For your best moments, be a trendsetter!</h1>
+                        <h5 class="white-text ropa-sans hide-on-med-and-down">Fashion story in everyday chapter.</h5>
+                    </div>
+                </div>
+                <div class="col l4 hide-on-med-and-down">
+                    <div class="container center">
+                            <img class="materialboxed responsive-img hoverable circle" src="Images/women.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 3: tabs product  -->
+    <section class="section capriola">
+        <div class="center container scrollspy">
+            <h1 class="section scrollspy light-blue-text text-darken-4" id="product">PRODUCT</h1>
+            <br>
+            <div class="row">
+                <div class="col s11 m11 l10 offset-l2" id="offset">
+                    <ul class="tabs">
+                        <li class="tab col s3 l3"><a href="#hot" class="light-blue-text text-darken-4">HOT</a></li>
+                        <li class="tab col s3 l3"><a href="#women" class="light-blue-text text-darken-4">WOMEN</a></li>
+                        <li class="tab col s3 l3"><a href="#men" class="light-blue-text text-darken-4">MEN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- hot  -->
+            <div id="hot" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/d6.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/d1.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/d2.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/d4.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/d5.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row ">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class="gray-text text-darken-4">Vietnam Padded Dress</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 649</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/p6.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/p1.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/p7.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/p8.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/p2.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Button Up Polo</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 549</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/s2.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/s3.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/s1.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/s4.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/s5.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Polo Top and Skirt Terno</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 1599</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/c2.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/c1.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/c7.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/c6.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/c3.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Cargo Jogger Pants</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 799</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/j1.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/j2.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/j3.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/j4.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/j5.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Loose Jeans</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 799</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/nd2.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/nd3.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/nd1.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/nd4.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/nd5.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Satin Night dress</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 799</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/sk2.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/sk3.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/sk1.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/sk4.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/sk5.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">High Waist skirt</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 499</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image carousel carousel-slider hoverable">
+                                <img src="Images/07.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/04.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/06.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/05.jpg" class="carousel-item responsive-img activator">
+                                <img src="Images/08.jpg" class="carousel-item responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Oversize Shirt</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 499</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- women  -->
+            <div id="women" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/cr1.jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Trim Crop Top</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 449</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/cr2.jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Sleeveless Crop Top</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 449</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/cr3.jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Crop Cube Top</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 449</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/cr6.jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Crop Cami Top</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 449</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large hoverable z-depth-4">
+                            <div class="card large z-depth-3">
+                                <div class="card-image hoverable">
+                                    <img src="Images/dr2.jpg" class="responsive-img activator">
+                                </div>
+                                <div class="card-contents center">
+                                    <div class="row">
+                                        <div class="col s2 m2 l2">
+                                        </div>
+                                        <div class="col s8 m8 l8">
+                                            <h6 class="grey-text center">WOMEN</h6>
+                                        </div>
+                                        <div class="col s2 m2 l2">
+                                            <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <h6 class= "gray-text text-darken-4">Red Cami Dress</h6>
+                                            <h6 class="light-blue-text text-darken-4">PHP 1499</h6>
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                    <br><br><br>
+                                    <h3>Add to:</h3>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large hoverable z-depth-4">
+                            <div class="card large z-depth-3">
+                                <div class="card-image hoverable">
+                                    <img src="Images/dr3.jpg" class="responsive-img activator">
+                                </div>
+                                <div class="card-contents center">
+                                    <div class="row">
+                                        <div class="col s2 m2 l2">
+                                        </div>
+                                        <div class="col s8 m8 l8">
+                                            <h6 class="grey-text center">WOMEN</h6>
+                                        </div>
+                                        <div class="col s2 m2 l2">
+                                            <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <h6 class= "gray-text text-darken-4">Bodycon Dress</h6>
+                                            <h6 class="light-blue-text text-darken-4">PHP 799</h6>
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                    <br><br><br>
+                                    <h3>Add to:</h3>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large hoverable z-depth-4">
+                            <div class="card large z-depth-3">
+                                <div class="card-image hoverable">
+                                    <img src="Images/d8.jpg" class="responsive-img activator">
+                                </div>
+                                <div class="card-contents center">
+                                    <div class="row">
+                                        <div class="col s2 m2 l2">
+                                        </div>
+                                        <div class="col s8 m8 l8">
+                                            <h6 class="grey-text center">WOMEN</h6>
+                                        </div>
+                                        <div class="col s2 m2 l2">
+                                            <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <h6 class= "gray-text text-darken-4">Vietnam Padded Dress</h6>
+                                            <h6 class="light-blue-text text-darken-4">PHP 649</h6>
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                    <br><br><br>
+                                    <h3>Add to:</h3>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large hoverable z-depth-4">
+                            <div class="card large z-depth-3">
+                                <div class="card-image hoverable">
+                                    <img src="Images/dr4.jpg" class="responsive-img activator">
+                                </div>
+                                <div class="card-contents center">
+                                    <div class="row">
+                                        <div class="col s2 m2 l2">
+                                        </div>
+                                        <div class="col s8 m8 l8">
+                                            <h6 class="grey-text center">WOMEN</h6>
+                                        </div>
+                                        <div class="col s2 m2 l2">
+                                            <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <h6 class= "gray-text text-darken-4">Split Side Dress</h6>
+                                            <h6 class="light-blue-text text-darken-4">PHP 1499</h6>
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                    <br><br><br>
+                                    <h3>Add to:</h3>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12">
+                                                <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Men  -->
+            <div id="men" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/ts1 (1).jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Basic Tee</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 449</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/02.jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Oversize Tee</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 499</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/03.jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Oversize Tee</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 499</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/ts2.jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Basic Tee</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 449</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/ls (1).jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Long Sleeves</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 599</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/ls (2).jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Long Sleeves</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 599</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/ls (3).jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Long sleeves</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 599</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card large z-depth-3">
+                            <div class="card-image hoverable">
+                                <img src="Images/ls (4).jpg" class="responsive-img activator">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+                                        <i class="material-icons right card-title activator grey-text text-darken-4" id="more">more_vert</i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class= "gray-text text-darken-4">Long Sleeves</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 599</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                                <br><br><br>
+                                <h3>Add to:</h3>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Favorites</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+    <!-- section 4: Perks  -->
+    <section class="section capriola yellow darken-1">
+        <div class="container section scrollspy" id="perks">
+            <h1 class="center light-blue-text text-darken-4">DO YOU WANT BENEFITS?</h1>
+            <h3 class="center light-blue-text text-darken-4 ropa-sans">PERKS OF SIGNING UP</h3>
+            <div class="row center">
+                <div class="col s12 m12 l4">
+                    <div class="card light-blue darken-4 small">
+                        <div class="card-content white-text">
+                            <i class="material-icons large">card_giftcard</i>
+                            <span class="card-title">Welcome Offer</span>
+                            <p>Get a ₱ 299 Coupon for signing up.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card light-blue darken-4 small">
+                        <div class="card-content white-text">
+                            <i class="material-icons large">discount</i>
+                            <span class="card-title">Great Deals</span>
+                            <p>Enjoy Flash Sale up to 80%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card light-blue darken-4 small">
+                        <div class="card-content white-text">
+                            <i class="material-icons large">local_shipping</i>
+                            <span class="card-title">Safe order transaction</span>
+                            <p>Faster checkout with safest transaction.</p>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- section 5: gallery  -->
+
+    <section class="capriola">
+        <div class="container section scrollspy" id="gallery">
+            <h1 class="center light-blue-text text-darken-4">GALLERY</h1>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable"  src="Images/g1.jpg">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable" width="650" src="Images/g2.jpg">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable" width="650" src="Images/g3.jpg">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable" width="650" src="Images/g5.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable" width="650" src="Images/g6.jpg">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable" width="650" src="Images/g7.jpg">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable" width="650" src="Images/g8.jpg">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img hoverable" width="650" src="Images/g9.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Modal structure: Favorites  -->
+    <div class="modal modal-fixed-footer" id="favorites">
+        <div class="modal-content yellow darken-1">
+            <div class="container">
+                <h3 class="ropa-sans light-blue-text text-darken-4">Favorites</h3>
+                <div class="divider light-blue darken-4"></div>
+                <br>
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="card large">
+                            <div class="card-image">
+                                <a href="#!" class="light-blue-text text-darken-4 right"><i class="material-icons">clear</i></a>
+                                <img src="images/d4.jpg">
+                            </div>
+                            <div class="card-contens center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class="gray-text text-darken-4">Vietnam Padded Dress</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 649</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card large">
+                            <div class="card-image">
+                                <a href="#!" class="light-blue-text text-darken-4 right"><i class="material-icons">clear</i></a>
+                                <img src="images/s4.jpg">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">WOMEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class="gray-text text-darken-4">Polo Top and Skirt Terno</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 1599</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card large">
+                            <div class="card-image">
+                                <a href="#!" class="light-blue-text text-darken-4 right"><i class="material-icons">clear</i></a>
+                                <img src="images/07.jpg">
+                            </div>
+                            <div class="card-contents center">
+                                <div class="row">
+                                    <div class="col s2 m2 l2">
+                                    </div>
+                                    <div class="col s8 m8 l8">
+                                        <h6 class="grey-text center">MEN</h6>
+                                    </div>
+                                    <div class="col s2 m2 l2">
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12 m12 l12">
+                                        <h6 class="gray-text text-darken-4">Oversize Shirt</h6>
+                                        <h6 class="light-blue-text text-darken-4">PHP 499</h6>
+                                        <a class="waves-effect waves-light btn-large white-text light-blue darken-4 hoverable waves-effect waves-yellow capriola">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer ropa-sans light-blue darken-4">
+            <a href="#!" class="modal-close waves-effect waves-yellow btn-flat white-text">Add Items to Cart</a>
+            <a href="#!" class="modal-close waves-effect waves-yellow btn-flat white-text">Exit</a>
+        </div>
+    </div>
+
+    <!-- Modal structure: Shopping cart  -->
+    <div class="modal modal-fixed-footer" id="cart">
+        <div class="modal-content yellow darken-1">
+            <table class="capriola">
+                <thead>
+                    <tr>
+                        <th class="light-blue-text text-darken-4">Product</th>
+                        <th class="light-blue-text text-darken-4">Quantity</th>
+                        <th class="light-blue-text text-darken-4">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col s6 m6 l6">
+                                    <img class="img-size"  src="Images/sk7.jpg"> 
+                                </div>
+                                <div class="col s6 m6 l6">
+                                    <h6>Skirt</h6>
+                                    <h6>Price: ₱499</h6>
+                                    <p><a href="#!">Remove</a></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>1</td>
+                        <td>₱499</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col s6 m6 l6">
+                                    <img class="img-size"  src="Images/01.jpg"> 
+                                </div>
+                                <div class="col s6 m6 l6">
+                                    <h6>Oversize Shirt</h6>
+                                    <h6>Price: ₱499</h6>
+                                    <p><a href="#!">Remove</a></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>1</td>
+                        <td>₱499</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col s6 m6 l6">
+                                    <img class="img-size"  src="Images/nd3.jpg"> 
+                                </div>
+                                <div class="col s6 m6 l6">
+                                    <h6>Satin Dress</h6>
+                                    <h6>Price: ₱799</h6>
+                                    <p><a href="#!">Remove</a></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>1</td>
+                        <td>₱799</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <div class="row light-blue-text text-darken-4">
+                                <h6>Subtotal:</h6>
+                            </div>
+                            <div class="row light-blue-text text-darken-4">
+                                <h6>Tax:</h6>
+                            </div>
+                            <div class="row light-blue-text text-darken-4">
+                                <h6>Total:</h6>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <h6> ₱1797</h6>
+                            </div>
+                            <div class="row">
+                                <h6>₱50</h6>
+                            </div>
+                            <div class="row">
+                                <h6>₱1847</h6>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="modal-footer ropa-sans light-blue darken-4">
+            <a href="#!" class="modal-close waves-effect waves-yellow btn-flat white-text">Exit</a>
+        </div>
+    </div>
+    
+
+
+
+
+    <!-- footer  -->
+    <br><br><br><br>
+    <footer class="page-footer light-blue darken-4 ropa-sans">
+        <div class="container">
+            <div class="row">
+                <div class="col l3 s12">
+                    <h4>
+                        <a href="#!" class="center brand-logo white-text capriola">Trend<span class="yellow-text text-darken-1">setter.</span></a>
+                    </h4>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="capriola yellow-text text-darken-1">About Us</h5>
+                    <p class="white-text">
+                        This year, we added a new clothes store to our flagship location in Cabuyao, Laguna. 
+                        In this area, we collaborate across multiple genres, from fashion and photography to accommodation. 
+                        There is nothing we will not do. We believe in the power of a good product and a good purpose. 
+                        Trendsetter ensures that your outfits are constantly in excellent state by using high-quality fabrics.
+                    </p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="capriola yellow-text text-darken-1">Contact Us</h5>
+                    <ul>
+                        <li>Phone number: +639129328761</li>
+                        <li>Telephone number: 426-5373-382</li>
+                        <li>Email address: trendsetter@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="capriola yellow-text text-darken-1">Subscribe</h5>
+                    <i href="#!" class='bx bxl-facebook-circle bx-lg'></i>
+                    <i href="#!" class='bx bxl-instagram bx-lg'></i>
+                    <i href="#!" class='bx bxl-youtube bx-lg'></i>
+                    <i class='bx bxl-tiktok bx-lg'></i>
+                    <i href="#!" class='bx bxl-pinterest-alt bx-lg'></i>
+                </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container white-text center">
+                © 2022 Copyright: Trendsetter.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax({
+            });
+            $('.materialboxed').materialbox();
+            $('.scrollspy').scrollSpy()
+            $('.sidenav').sidenav({
+                edge:"right",
+                preventScrolling: false,
+            });
+            $('.tap-target').tapTarget();
+            $('.modal').modal({
+                preventScrolling: false,
+                // dismissible: false,
+            });
+            $('.slider').slider({
+                indicators: false,
+                height: 200,
+            });
+            $('.slider').slider({
+                indicators: false,
+                height: 550,
+                duration: 450,
+                interval: 1500,
+            });
+            $('.tabs').tabs({
+                responsiveThreshold: 1000,
+            });
+            $('.fixed-action-btn').floatingActionButton();
+            $(".dropdown-trigger").dropdown();
+            $('.carousel').carousel({
+                indicators: true,
+                fullWidth: true,
+            });
+            $('.tooltipped').tooltip({
+
+            });
+        });
+    </script>
+</body>
+</html>

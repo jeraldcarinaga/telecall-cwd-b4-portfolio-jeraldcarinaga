@@ -1,0 +1,47 @@
+.main-header{
+  background: url(../Images/bg3.jpg);
+  min-height: 750px;
+  background-size: cover;
+  background-position: center;
+}
+.main-header .showcase{
+  padding-top: 230px;
+}
+
+#light-gray{
+    color: #e7e7e7;
+}
+
+.parallax-container {
+    height: 300px;
+  }
+
+.dropdown-content{
+    width: 100px;
+  }
+
+.capriola{
+  font-family: 'Capriola', sans-serif;
+}
+
+.ropa-sans{
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+#more{
+  padding-right: 10px;
+  padding-top: 8px;
+}
+
+.img-size{
+  width: 100px;
+  height: 100px;
+}
+
+#offset{
+  padding-left: 70px;
+}
+
+
+
+
